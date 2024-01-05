@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background: #17a2b8;
+
+    /* can ra giuwa man hinh  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    background: white;
+    width: 300px;
+    height: 100px;
+    border: none;
+    outline: none;
+    color: #17a2b8;;
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.infor-button .number-key{
+    background:#17a2b8; 
+    border: solid 4px white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.card{
+    width: 300px;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card p{
+    color: black;
+    padding: 10px ;
+    text-align: center;
+}
+.card p:first-child{
+    background: #78c0c9;
+    color: white;
+}
+.detail{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
